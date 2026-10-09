@@ -1,0 +1,46 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+configurations.configureEach {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'org.jetbrains.kotlin') {
+            if (details.requested.name in ['kotlin-stdlib','kotlin-stdlib-common','kotlin-stdlib-jdk7','kotlin-stdlib-jdk8','kotlin-reflect']) {
+                details.useVersion '1.9.0'
+            }
+        }
+    }
+}
+android {
+    namespace 'com.reze.offline'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.reze.offline.coexist'
+        minSdk 24
+        targetSdk 34
+        versionCode 235
+        versionName "1.0"
+    }
+    signingConfigs {
+        offline {
+            storeFile file("../keystore/coexist.jks")
+            storePassword "***REMOVED***"
+            keyAlias "coexist"
+            keyPassword "***REMOVED***"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.offline
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}

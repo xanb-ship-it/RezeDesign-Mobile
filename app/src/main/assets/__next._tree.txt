@@ -1,0 +1,3 @@
+:HL["/nx_assets/static/chunks/1uhrdnd5t20sq.css","style"]
+:HL["/nx_assets/static/chunks/1ix59xuhq-q14.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"W75-tv1c-BNFzLu7Avy_a"}
