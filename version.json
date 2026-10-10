@@ -1,7 +1,7 @@
 {
-  "versionName": "3.2.1",
-  "versionCode": 516,
-  "minSupportedVersionCode": 516,
+  "versionName": "3.2.2",
+  "versionCode": 517,
+  "minSupportedVersionCode": 517,
   "notes": "调整UI和导出设置，本地版本增加一些节点，修复一些bug\n下载地址：https://drive.uc.cn/s/909f352af86b4",
   "apkUrl": "https://drive.uc.cn/s/909f352af86b4",
   "downloadUrl": "https://drive.uc.cn/s/909f352af86b4"
