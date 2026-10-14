@@ -1,8 +1,8 @@
 {
-  "versionName": "3.4.06",
-  "versionCode": 573,
+  "versionName": "3.5.1",
+  "versionCode": 601,
   "minSupportedVersionCode": 573,
-  "notes": "可能增加更多bug\n\n下载地址：https://drive.uc.cn/s/909f352af86b4",
+  "notes": "更新日志：\n· 更新了版本号\n· 增加一些bug\n· 解决提出问题的客户\n\n下载地址：https://drive.uc.cn/s/909f352af86b4",
   "apkUrl": "https://drive.uc.cn/s/909f352af86b4",
   "downloadUrl": "https://drive.uc.cn/s/909f352af86b4"
 }
