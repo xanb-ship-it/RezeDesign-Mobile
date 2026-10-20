@@ -1,8 +1,8 @@
 {
-  "versionName": "3.6.0",
-  "versionCode": 608,
-  "minSupportedVersionCode": 608,
-  "notes": "更新日志：\n· 修复了已知问题",
+  "versionName": "3.6.1",
+  "versionCode": 610,
+  "minSupportedVersionCode": 610,
+  "notes": "更新日志：\n· 修复了一些 bug",
   "apkUrl": "https://drive.uc.cn/s/909f352af86b4",
   "downloadUrl": "https://drive.uc.cn/s/909f352af86b4"
 }
