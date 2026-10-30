@@ -1,8 +1,10 @@
 {
-  "versionName": "4.0.0",
-  "versionCode": 770,
-  "minSupportedVersionCode": 770,
-  "notes": "更新日志：\n· 视频导出帧率 60 / 120 / 240\n· 实时 FPS 显示\n· 底层渲染更新\n· 平面网格粒子卡\n· 粒子溶解效果（新特效）\n· 新场景光照柔和度\n· 头发判定更准\n· 崩溃重置保住 AI 密钥\n· 增加页面：模型和动作保存页面\n· 辅助控制台 UI 重构，性能更好、界面更精美\n· 控制台增加模型/动作自定义上传，自动获取模型预览图，一键导入模型或动作\n· 增加模之屋：在模之屋下载的模型自动获取，由用户自行选择是否导入，入口在软件模型页面\n· 修复已知问题\n· 优化部分性能问题",
+  "versionName": "4.0.1",
+  "versionCode": 777,
+  "minSupportedVersionCode": 777,
+  "notes": "更新日志：
+· 优化控制台适配性
+· 优化原神渲染",
   "apkUrl": "https://drive.uc.cn/s/909f352af86b4",
   "downloadUrl": "https://drive.uc.cn/s/909f352af86b4"
 }
